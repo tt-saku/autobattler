@@ -17,7 +17,16 @@ config/icon="res://icon.svg"
 
 [autoload]
 
+EventBus="*res://scripts/event_bus.gd"
 _mcp_game_helper="*res://addons/godot_ai/runtime/game_helper.gd"
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/size/window_width_override=1920
+window/size/window_height_override=1080
+window/stretch/mode="canvas_items"
 
 [editor_plugins]
 

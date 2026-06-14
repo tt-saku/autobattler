@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://test_sword_001"]
+
+[ext_resource type="Script" uid="uid://dk0bo5absqoj0" path="res://scripts/item_data.gd" id="1_x"]
+
+[resource]
+script = ExtResource("1_x")
+id = "test_sword"
+name = "Test Rusty Sword"
+size = 1
+cd_a = 2.0
+cd_b = 1.5
+effect_a = "damage 15"
+effect_b = "damage 10"
+flip_effect = "f"
+heroes = "common"
+tags = ["weapon"]
+rarity = "bronze"
+metadata/_custom_type_script = "uid://dk0bo5absqoj0"

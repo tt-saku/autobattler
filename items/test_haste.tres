@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://test_haste_001"]
+
+[ext_resource type="Script" uid="uid://dk0bo5absqoj0" path="res://scripts/item_data.gd" id="1_x"]
+
+[resource]
+script = ExtResource("1_x")
+id = "test_haste"
+name = "Test Haste Core"
+size = 1
+cd_a = 4.0
+cd_b = 2.5
+effect_a = "haste 3"
+effect_b = "haste 1.5"
+flip_effect = "f"
+heroes = "common"
+tags = ["tech"]
+rarity = "bronze"
+metadata/_custom_type_script = "uid://dk0bo5absqoj0"
