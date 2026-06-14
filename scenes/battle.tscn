@@ -1,0 +1,61 @@
+[gd_scene format=3 uid="uid://bcidsypihlevk"]
+
+[ext_resource type="Script" uid="uid://ctajurgys7jlc" path="res://scripts/battle.gd" id="1_th188"]
+[ext_resource type="Script" uid="uid://2tnpwyq6cw3x" path="res://scripts/player_board.gd" id="2_th188"]
+
+[node name="Battle" type="Control" unique_id=1388966895]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_th188")
+
+[node name="Main_layout" type="VBoxContainer" parent="." unique_id=764673203]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Enemy_area" type="VBoxContainer" parent="Main_layout" unique_id=214855561]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Main_layout/Enemy_area" unique_id=378943519]
+layout_mode = 2
+text = "🛒 Shop"
+
+[node name="Enemy_board" type="HBoxContainer" parent="Main_layout/Enemy_area" unique_id=821828099]
+layout_mode = 2
+script = ExtResource("2_th188")
+
+[node name="Battle_log" type="Panel" parent="Main_layout" unique_id=1605940852]
+custom_minimum_size = Vector2(0, 60)
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Main_layout/Battle_log" unique_id=1085462235]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Battle log"
+
+[node name="Player_area" type="VBoxContainer" parent="Main_layout" unique_id=1518003222]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Main_layout/Player_area" unique_id=174444919]
+layout_mode = 2
+text = "Player"
+
+[node name="Player_board" type="HBoxContainer" parent="Main_layout/Player_area" unique_id=93688566]
+layout_mode = 2
+script = ExtResource("2_th188")
+
+[node name="Backpack_btn" type="Button" parent="." unique_id=403673888]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 560.0
+offset_right = 118.0
+offset_bottom = 591.0
+text = "🎒 Backpack"

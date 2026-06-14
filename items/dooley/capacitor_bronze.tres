@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://nvegxb6psuna"]
+
+[ext_resource type="Texture2D" uid="uid://b6dycdlgvubyr" path="res://items/dooley/capacitor.webp" id="1_wwd6y"]
+[ext_resource type="Script" uid="uid://dk0bo5absqoj0" path="res://scripts/item_data.gd" id="2_b3rpl"]
+
+[resource]
+script = ExtResource("2_b3rpl")
+id = "capacitor_bronze"
+name = "Capacitor"
+cd_a = 6.0
+cd_b = 9.0
+icon_a = ExtResource("1_wwd6y")
+icon_b = ExtResource("1_wwd6y")
+effect_a = "charge adjacent items 1 second"
+effect_b = "charge adjacent items 2 seconds"
+flip_effect = "charge adjacent items 1 second"
+heroes = "dooley"
+tags = ["tech"]
+metadata/_custom_type_script = "uid://dk0bo5absqoj0"

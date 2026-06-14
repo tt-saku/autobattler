@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://c0s3y0t06nxb4"]
+
+[ext_resource type="Script" uid="uid://d3nmv2vlwcfvn" path="res://scripts/item_instance.gd" id="1_c18cp"]
+
+[node name="ItemInstance" type="Control" unique_id=751867298]
+custom_minimum_size = Vector2(80, 110)
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1_c18cp")
+
+[node name="Label" type="Label" parent="." unique_id=2111880956]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+autowrap_mode = 3
+
+[node name="Panel" type="Panel" parent="." unique_id=710840836]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2

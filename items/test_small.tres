@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bxebsafmys1rj"]
+
+[ext_resource type="Script" uid="uid://dk0bo5absqoj0" path="res://scripts/item_data.gd" id="1_qomb0"]
+
+[resource]
+script = ExtResource("1_qomb0")
+id = "test_small"
+name = "Test Small"
+cd = 3.0
+effect_a = "a"
+effect_b = "b"
+flip_effect = "f"
+tags = ["test1", "test2"]
+metadata/_custom_type_script = "uid://dk0bo5absqoj0"

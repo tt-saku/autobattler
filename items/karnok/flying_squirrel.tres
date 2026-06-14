@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bn7esifqgnbdw"]
+
+[ext_resource type="Script" uid="uid://dk0bo5absqoj0" path="res://scripts/item_data.gd" id="1_psxjq"]
+[ext_resource type="Texture2D" uid="uid://cw08ll25grtv" path="res://items/karnok/flying_squirrel.webp" id="1_u5tjt"]
+
+[resource]
+script = ExtResource("1_psxjq")
+id = "flying_squirrel_bronze"
+name = "Flying Squirrel"
+cd_a = 4.0
+cd_b = 4.0
+icon_a = ExtResource("1_u5tjt")
+icon_b = ExtResource("1_u5tjt")
+effect_a = "Haste the item to the right for 1 second and it starts flying"
+effect_b = "b"
+flip_effect = "f"
+heroes = "karnok"
+tags = ["friend"]
+metadata/_custom_type_script = "uid://dk0bo5absqoj0"
